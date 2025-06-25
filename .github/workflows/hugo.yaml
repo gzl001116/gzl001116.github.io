@@ -35,4 +35,4 @@ jobs:
           external_repository: gzl001116/gzl001116.github.io # Set the target repository
           publish_dir: ./public
           publish_branch: main # Set the target branch
-          cname: xxx.com # If you have a custom domain
+          cname: gzlqizhai666.xyz # If you have a custom domain
