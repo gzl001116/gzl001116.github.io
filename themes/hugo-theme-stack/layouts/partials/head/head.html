@@ -1,6 +1,7 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name="verify-admitad" content="daafd0d1e0" />
+<meta name="baidu-site-verification" content="codeva-0icqxYlUdF" />
 
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
@@ -25,3 +26,13 @@
 
 {{- template "_internal/google_analytics.html" . -}}
 {{- partial "head/custom.html" . -}}
+
+<script type="text/javascript">
+  var vglnk = {key: '23acc2d8c0c942f83e5e39d88dcc37d8'};
+  (function(d, t) {var s = d.createElement(t);
+    s.type = 'text/javascript';s.async = true;
+    s.src = '//cdn.viglink.com/api/vglnk.js';
+    var r = d.getElementsByTagName(t)[0];
+    r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script>
