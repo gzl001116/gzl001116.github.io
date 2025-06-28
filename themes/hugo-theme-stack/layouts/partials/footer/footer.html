@@ -1,4 +1,4 @@
-{{- $ThemeVersion := "3.30.0" -}}
+    {{- $ThemeVersion := "3.30.0" -}}
 <footer class="site-footer">
     <section class="copyright">
         &copy; 
@@ -12,6 +12,16 @@
         {{ with .Site.Params.footer.customText }}
             {{ . | safeHTML }} <br/>
         {{ end }}
+
+        <script type="text/javascript">
+  var vglnk = {key: '23acc2d8c0c942f83e5e39d88dcc37d8'};
+  (function(d, t) {var s = d.createElement(t);
+    s.type = 'text/javascript';s.async = true;
+    s.src = '//cdn.viglink.com/api/vglnk.js';
+    var r = d.getElementsByTagName(t)[0];
+    r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script>
 
         {{- $Generator := `<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>` -}}
         {{- $Theme := printf `<b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="%s">Stack</a></b>` $ThemeVersion -}}
