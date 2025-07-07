@@ -55,6 +55,10 @@ var infolinks_wsid = 0;
 
 
 
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -63,6 +67,17 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+</script>
+
+
+<script>
+window.yaContextCb.push(() => {
+    Ya.Context.AdvManager.render({
+        "blockId": "R-A-16166022-1",
+        "type": "fullscreen",
+        "platform": "touch"
+    })
+})
 </script>
 
 
