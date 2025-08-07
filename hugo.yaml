@@ -13,12 +13,12 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 languages:
     zh-cn:
-        languageName: 中文
-        title: 七宅历史
+        languageName: English
+        title: Qi Zhai
         weight: 1
         params:
             sidebar:
-                subtitle: 演示说明
+                subtitle: Long live the people!
 
 services:
     # Change it to your Disqus shortname before using
@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 来财
+        subtitle: Imperialism, with its tail between its legs, leaning on a walking stick, carrying a urinal and holding a lunch box, fled!
         avatar:
             enabled: true
             local: true
